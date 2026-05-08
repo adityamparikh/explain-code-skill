@@ -30,18 +30,14 @@ Walk me through src/services/payment.ts
 
 ## Installation
 
-Add this skill to your Claude Code configuration:
-
-```bash
-claude mcp add-skill explain-code https://github.com/adityamparikh/explain-code-skill
-```
-
-Or clone into your skills directory:
+Clone the skill into your Claude Code skills directory:
 
 ```bash
 git clone https://github.com/adityamparikh/explain-code-skill.git ~/.claude/skills/explain-code
 ```
 
+Claude Code will pick up the skill on the next session.
+
 ## License
 
-MIT
+Apache License 2.0 — see [LICENSE](LICENSE).
